@@ -1,5 +1,4 @@
 import { Frog } from "frog";
-import sdk from "../../../lib/thirdweb";
 
 const fortunes = [
   "Today the chain is on your side.",
@@ -77,3 +76,4 @@ app.frame("/mint", async (c) => {
 
 export const GET = app.fetch;
 export const POST = app.fetch;
+
